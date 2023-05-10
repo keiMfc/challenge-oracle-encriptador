@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>    
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <title>Encriptador</title>
+
+    </head>
+
+    <body>
+
+        <header>
+            <div class="logo">
+                <img src="imagenes/logo-desktop.svg" alt="Logo del encriptador">
+                <h1>Encriptador</h1> 
+            </div> 
+        </header>
+    
+        <main>
+
+            <div class="contenedor-secciones">
+
+                <section class="seccion-principal">
+   
+                    <textarea class="text-area" id="text-area" autofocus placeholder="Ingrese el texto aqui..."></textarea>
+    
+                    <div class="informacion">
+                        <img src="imagenes/bi_exclamation-circle-fill.svg" alt="símbolo de alerta/exclamación">
+                        <p>Solo letras minúsculas y sin acentos.</p>
+                    </div>     
+                    
+                    <div class="container-buttons">
+                        <input class="button-primary" id="encriptar" onclick="encriptar()" type="button" value="Encriptar" >
+                        <input class="button-secondary" id="desencriptar" onclick="desencriptar()" type="button" value="Desencriptar">
+                        <input class="button-secondary" id="pegar" onclick="pegar()" type="button" value="Pegar">
+                        <input class="button-secondary" id="limpiar" onclick="limpiar()" type="button" value="Limpiar">
+                    </div>
+    
+                </section>
+                
+                <section class="seccion-secundario">
+                    
+                    <img class="img-mensaje" id="img-mensaje" src="imagenes/search.svg" alt="busqueda de mensaje">
+                    <h3 class="mensaje-vacio" id="mensaje-vacio" >Ningún mensaje fue encontrado</h3>
+                    <textarea class="mensaje" id="mensaje">Ingresa el texto que desees encriptar o desencriptar.</textarea>
+                    <input class="button-secondary" id="copiar" onclick="copiar()"  type="button" value="Copiar">
+                    
+                </section>
+                
+            </div>
+            
+        </main>
+
+        <footer>
+            <p>© 2023, made with ❤ by Keilin Figueredo</p>
+            <a href="https://www.linkedin.com/in/keilin-figueredo/" class="hipervinculos">LinkedIn</a>
+            <a href="https://github.com/keiMfc" class="hipervinculos">GitHub</a>
+        </footer>
+
+    <script src="script.js"></script>
+
+    </body>
+
+</html>
