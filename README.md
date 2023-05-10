@@ -1,5 +1,7 @@
 # 🔐 Encriptador - Challenge ONE de Allura Latam
 
+ **Para probar el encriptador v.0.1.0 [ingresa aquí](https://keimfc.github.io/challenge-oracle-encriptador/).**
+
 # 📋 Requisitos:
 
 - Construir un encriptador de texto con Javascript con las "llaves" de encriptación siguientes:
@@ -34,7 +36,8 @@
 
 - Diseño responsivo.
 
- **Para probar el encriptador v.0.1.0 [ingresa aquí](https://keimfc.github.io/challenge-oracle-encriptador/).**
+
+
 
 <div align="center">
 <img src="https://skillicons.dev/icons?i=,html,css,javascript"></img>
